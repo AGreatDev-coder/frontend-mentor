@@ -8,7 +8,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 
 | # | Challenge | Difficulty | Tech Stack | Solution Code | Live Demo |
 |---|-----------|------------|------------|---------------|-----------|
-| 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-coder.github.io/frontend-mentor/blog-preview-card-main/blog-preview-card-main/) |
+| 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
 
 ---
 
