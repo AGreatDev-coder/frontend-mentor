@@ -9,7 +9,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 | # | Challenge | Difficulty | Tech Stack | Solution Code | Live Demo |
 |---|-----------|------------|------------|---------------|-----------|
 | 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
-| 02 | **Fylo Dark Theme Landing Page** | Junior | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | *Available Locally* |
+| 02 | **Fylo Dark Theme Landing Page** | Junior | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | [Live Demo](https://agreatdev-fylo-dark-theme.netlify.app) |
 
 ---
 
@@ -17,6 +17,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 
 ### 1. Blog Preview Card
 
+- **Live Demo:** [https://agreatdev-blog-preview-card.netlify.app](https://agreatdev-blog-preview-card.netlify.app)
 - **Challenge Link:** [Blog preview card on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-cP_0cKrn5J)
 - **Folder:** [`./blog-preview-card-main/blog-preview-card-main/`](./blog-preview-card-main/blog-preview-card-main/)
 - **Key Concepts Practiced:**
@@ -32,6 +33,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 
 ### 2. Fylo Dark Theme Landing Page
 
+- **Live Demo:** [https://agreatdev-fylo-dark-theme.netlify.app](https://agreatdev-fylo-dark-theme.netlify.app)
 - **Challenge Link:** [Fylo dark theme landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
 - **Folder:** [`./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/`](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/)
 - **Key Concepts Practiced:**
