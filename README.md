@@ -9,6 +9,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 | # | Challenge | Difficulty | Tech Stack | Solution Code | Live Demo |
 |---|-----------|------------|------------|---------------|-----------|
 | 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
+| 02 | **Fylo Dark Theme Landing Page** | Junior | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | *Available Locally* |
 
 ---
 
@@ -26,6 +27,22 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
   - Neo-brutalist hard-edged offset `box-shadow` and solid borders
   - Interactive hover state with `h1:hover` and `cursor: pointer`
   - Custom Google Font integration (**Figtree**)
+
+---
+
+### 2. Fylo Dark Theme Landing Page
+
+- **Challenge Link:** [Fylo dark theme landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
+- **Folder:** [`./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/`](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/)
+- **Key Concepts Practiced:**
+  - Semantic HTML5 page structure (`<header>`, `<nav>`, `<section>`, `<footer>`)
+  - CSS Custom Variables (`:root`) tailored to dark theme UI
+  - Multi-column CSS Grid (`grid-template-columns`) and Flexbox layouts
+  - SVG curved background integration (`bg-curvy-desktop.svg` / `bg-curvy-mobile.svg`)
+  - Floating CTA subscription box overlapping page boundaries (`position: relative; margin-bottom: -120px;`)
+  - Font Awesome vector icon integration with circular borders and hover transitions
+  - Mobile responsiveness using `@media (max-width: 768px)`
+  - Interactive hover states on navigation links, buttons, and social media icons
 
 ---
 
