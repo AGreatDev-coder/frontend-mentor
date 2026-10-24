@@ -10,6 +10,7 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 |---|-----------|------------|------------|---------------|-----------|
 | 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
 | 02 | **Fylo Dark Theme Landing Page** | Junior | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | [Live Demo](https://agreatdev-fylo-dark-theme.netlify.app) |
+| 03 | **Tip Calculator App** | Junior | HTML5, CSS3, Flexbox, CSS Grid, JavaScript | [View Code](./tip-calculator-app-main/tip-calculator-app-main/) | [Live Demo](https://agreatdev-tip-calculator.netlify.app) |
 
 ---
 
@@ -45,6 +46,24 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
   - Font Awesome vector icon integration with circular borders and hover transitions
   - Mobile responsiveness using `@media (max-width: 768px)`
   - Interactive hover states on navigation links, buttons, and social media icons
+
+---
+
+### 3. Tip Calculator App
+
+- **Live Demo:** [https://agreatdev-tip-calculator.netlify.app](https://agreatdev-tip-calculator.netlify.app)
+- **Challenge Link:** [Tip calculator app on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+- **Folder:** [`./tip-calculator-app-main/tip-calculator-app-main/`](./tip-calculator-app-main/tip-calculator-app-main/)
+- **Key Concepts Practiced:**
+  - Semantic HTML5 structure (`<header>`, `<main>`, `<output>`, form controls with matching labels and unique IDs)
+  - CSS Custom Variables (`:root`) for color palette from style guide
+  - Two-dimensional CSS Grid for preset tip percentage buttons & custom input
+  - Modern Flexbox container layouts with responsive proportions
+  - Real-time DOM manipulation & state tracking in Vanilla JavaScript
+  - Mathematical formulas for tip per person and total bill per person formatted with `.toFixed(2)`
+  - Edge-case validation (zero people handling with dynamic error message & red outline)
+  - Full calculator reset flow restoring all initial states
+  - Mobile responsiveness with `@media (max-width: 768px)` adapting grid to 2 columns
 
 ---
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="" >
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="tip-calculator">
+        <div class="tip-calculator-left">
+          <div class="bill">
+            <label for="bill">Bill</label>
+            <div class="bill-input">
+              <img src="./images/icon-dollar.svg" alt="">
+              <input type="number" id="bill">
+            </div>
+          </div>
+          <div class="tip">
+            <label for="tip">Select Tip %</label>
+            <div class="tip-buttons">
+              <button type="button" id="tip-5">5%</button>
+              <button type="button" id="tip-10">10%</button>
+              <button type="button" id="tip-15">15%</button>
+              <button type="button" id="tip-25">25%</button>
+              <button type="button" id="tip-50">50%</button>
+              <input type="number" placeholder="Custom" id="tip-custom">
+            </div>
+          </div>
+          <div class="people">
+            <div class="people-header">
+              <label for="people">Number of People</label>
+              <span class="error-msg" id="people-error">Can't be zero</span>
+            </div>
+            <div class="people-input">
+              <img src="./images/icon-person.svg" alt="">
+              <input type="number" id="people">
+            </div>  
+          </div>
+        </div>
+        <div class="tip-calculator-right">
+          <div class="output-container">
+           <div class="tip-amount">
+             <output>
+               <div class="flex">
+                 <h2>Tip Amount</h2>
+                 <p id="person-1">/ person</p>
+               </div>
+               <p id="amount-1">$0.00</p>
+             </output>
+           </div>
+           <div class="total">
+             <output>
+               <div class="flex">
+                 <h2>Total</h2>
+                 <p id="person-2">/ person</p> 
+               </div>
+               <p id="amount-2">$0.00</p>
+             </output>
+           </div>
+          </div>
+          <button type="button" id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+</html>
