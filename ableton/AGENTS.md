@@ -112,3 +112,4 @@ When the developer begins, start with:
 1. Asking if they have reviewed [style-guide.md](./style-guide.md) and [`./images/fullsize-reference.jpg`](./images/fullsize-reference.jpg).
 2. Asking which milestone they would like to start with (recommended: **Milestone 1: HTML Skeleton**).
 3. Providing clear, bite-sized instructions on what elements to write, without writing the code for them.
+

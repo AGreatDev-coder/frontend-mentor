@@ -214,3 +214,4 @@ Ableton's signature layout feature is images placed inside or overlapping asymme
 | [`./images/youtube.svg`](./images/youtube.svg) | SVG | Footer Social Media Link |
 | [`./images/instagram.svg`](./images/instagram.svg) | SVG | Footer Social Media Link |
 | [`./images/fullsize-reference.jpg`](./images/fullsize-reference.jpg) | JPG | Complete full-length reference screenshot |
+

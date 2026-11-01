@@ -21,6 +21,7 @@ build/
 Thumbs.db
 *.swp
 *.swo
+*.zip
 
 # Logs
 *.log

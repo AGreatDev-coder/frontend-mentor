@@ -37,3 +37,4 @@ This project challenges frontend developers on typography hierarchy, whitespace 
 ## 👤 Author
 
 - **GitHub:** [@AGreatDev-coder](https://github.com/AGreatDev-coder)
+
