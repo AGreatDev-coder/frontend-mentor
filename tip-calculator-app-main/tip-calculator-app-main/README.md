@@ -1,61 +1,54 @@
-# Frontend Mentor - Tip calculator app solution
+# Splitter - Tip Calculator App 💵
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size (Desktop & Mobile)
-- See hover and active states for all interactive elements on the page (preset tip buttons, inputs, reset button)
-- Calculate the correct tip amount and total cost of the bill per person in real-time
-- Enter a custom tip percentage
-- View validation error states when number of people is set to 0 ("Can't be zero")
-- Reset the calculator to its initial state using the Reset button
-
-### Screenshot
+A modern, responsive tip calculator web application that computes tip amounts and bill split totals per person in real time. Designed with an intuitive two-panel layout, interactive percentage selectors, custom tip input, and input validation.
 
 ![Tip calculator app preview](./preview.jpg)
 
-### Links
+## 🚀 Live Demo
 
-- Solution URL: [https://github.com/AGreatDev-coder/frontend-mentor/tree/main/tip-calculator-app-main/tip-calculator-app-main](https://github.com/AGreatDev-coder/frontend-mentor/tree/main/tip-calculator-app-main/tip-calculator-app-main)
-- Live Site URL: [https://agreatdev-tip-calculator.netlify.app](https://agreatdev-tip-calculator.netlify.app)
+- **Live URL:** [https://agreatdev-tip-calculator.netlify.app](https://agreatdev-tip-calculator.netlify.app)
+- **Repository:** [https://github.com/AGreatDev-coder/frontend-mentor/tree/main/tip-calculator-app-main/tip-calculator-app-main](https://github.com/AGreatDev-coder/frontend-mentor/tree/main/tip-calculator-app-main/tip-calculator-app-main)
 
-## My process
+---
 
-### Built with
+## 📋 Table of Contents
 
-- Semantic HTML5 markup (`<header>`, `<main>`, `<output>`, form inputs with matching labels and accessible IDs)
-- CSS custom properties (`:root`) for color palette from the style guide
-- CSS Grid for the 6-cell tip buttons and custom input layout (`repeat(3, minmax(0, 1fr))` on desktop, `repeat(2, minmax(0, 1fr))` on mobile)
-- Flexbox for container alignment, input grouping with SVG icons, and result row formatting
-- Mobile-first responsive design using `@media (max-width: 768px)`
-- Vanilla JavaScript (ES6+) for real-time calculations, state management, and DOM manipulation
-- Google Fonts: [Space Mono](https://fonts.google.com/specimen/Space+Mono) (700 weight)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Architecture & Technical Details](#architecture--technical-details)
+- [Built With](#built-with)
+- [Project Structure](#project-structure)
+- [Getting Started Locally](#getting-started-locally)
+- [Author](#author)
 
-### What I learned
+---
 
-This challenge was a fantastic milestone combining layout architecture, responsive design, and real-time JavaScript interactivity.
+## 🔍 Overview
 
-1. **Clean Real-Time State Tracking & Calculation:**
-Keeping state variables (`billValue`, `tipPercentage`, `peopleCount`) updated through granular `input` and `click` listeners, followed by a centralized calculation function:
+Splitter solves the common problem of dividing restaurant bills and determining fair gratuity quickly. Users enter a bill amount, select a preset tip percentage or type a custom percentage, and input the number of people sharing the bill. The application dynamically outputs both the tip per person and the total amount owed per person.
+
+### User Experience
+
+- **Responsive Design:** Two-column card on desktop screens adapting cleanly to a stacked single-column layout on mobile devices.
+- **Instant Real-Time Calculations:** Updates results on every keystroke and button selection.
+- **Input Validation:** Clear error cues ("Can't be zero") preventing division-by-zero errors.
+- **Quick Reset Flow:** Instantly restore all inputs and outputs to initial default states.
+
+---
+
+## ✨ Key Features
+
+- **Preset & Custom Tip Selection:** 5 preset percentage buttons (5%, 10%, 15%, 25%, 50%) along with an open numeric input for any custom tip percentage.
+- **Active State Highlights:** Active preset tip buttons illuminate with strong visual contrast. Selecting a custom percentage clears preset highlights automatically.
+- **Zero-Person Error Guard:** Dynamic warning alert when the number of people input is zero or empty, accompanied by red border highlight.
+- **Currency Formatted Output:** Tip per person and total per person formatted to two decimal places (`$0.00`).
+
+---
+
+## 📐 Architecture & Technical Details
+
+### 1. Clean Real-Time State Tracking & Calculation
+State variables (`billValue`, `tipPercentage`, `peopleCount`) are updated through granular `input` and `click` event listeners, followed by a centralized calculation function:
 
 ```javascript
 function calculateTip() {
@@ -70,8 +63,8 @@ function calculateTip() {
 }
 ```
 
-2. **Active State Management on Preset Buttons & Custom Tip:**
-Seamlessly toggling the `.active` class across preset tip buttons while clearing it when custom input is focused:
+### 2. Active State Management on Preset Buttons & Custom Tip
+Seamlessly toggles the `.active` class across preset tip buttons while clearing it whenever a custom input is provided:
 
 ```javascript
 tipButtons.forEach(btn => {
@@ -84,8 +77,8 @@ tipButtons.forEach(btn => {
 });
 ```
 
-3. **Hiding Browser Spinners & Styling Focus Rings with `:focus-within`:**
-To make the inputs look native and match the design specification:
+### 3. Native Number Spinner Removal & Custom Focus Rings
+To keep inputs polished and consistent across browsers, standard browser number steppers are removed, and `:focus-within` provides clean custom focus outlines:
 
 ```css
 input::-webkit-outer-spin-button,
@@ -104,8 +97,8 @@ input[type=number] {
 }
 ```
 
-4. **Zero Division Error Handling:**
-Providing clear visual feedback when users input zero people to avoid infinite division results:
+### 4. Zero Division Error Handling
+Providing immediate visual feedback when users input zero people to avoid infinite division results:
 
 ```javascript
 peopleInput.addEventListener("input", (e) => {
@@ -121,22 +114,49 @@ peopleInput.addEventListener("input", (e) => {
 });
 ```
 
-### Continued development
+---
 
-In future projects, I plan to:
-- Implement complete keyboard accessibility (aria-live announcements for screen readers when totals update).
-- Add smooth number ticker animations when amounts recalculate.
+## 🛠️ Built With
 
-### Useful resources
+- **HTML5:** Semantic markup (`<header>`, `<main>`, `<output>`, form inputs with accessible labels)
+- **CSS3:** Custom properties (`:root`), CSS Grid for tip selection layout, Flexbox, media queries
+- **Vanilla JavaScript (ES6+):** Event listeners, state management, real-time DOM updates
+- **Google Fonts:** [Space Mono](https://fonts.google.com/specimen/Space+Mono) (700 weight)
 
-- [MDN Web Docs - CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) - Comprehensive guide for building equal-width grid columns using `minmax(0, 1fr)`.
-- [MDN Web Docs - Number.prototype.toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed) - Formatting decimal numbers as currency strings.
+---
 
-## Author
+## 📁 Project Structure
 
-- GitHub - [@AGreatDev-coder](https://github.com/AGreatDev-coder)
-- Frontend Mentor - [@AGreatDev-coder](https://www.frontendmentor.io/profile/AGreatDev-coder)
+```text
+tip-calculator-app-main/
+└── tip-calculator-app-main/
+    ├── images/          # Currency icons, person icon, and logo
+    ├── index.html       # Markup structure
+    ├── script.js        # Calculator logic & state handling
+    ├── style.css        # Responsive layouts & styling
+    ├── preview.jpg      # Project preview banner
+    └── README.md        # Documentation
+```
 
-## Acknowledgments
+---
 
-Special thanks to the Frontend Mentor community and mentors for guidance on problem-solving patterns, semantic structures, and CSS debugging.
+## 💻 Getting Started Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AGreatDev-coder/frontend-mentor.git
+   ```
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd frontend-mentor/tip-calculator-app-main/tip-calculator-app-main
+   ```
+
+3. **Open the application:**
+   Open `index.html` directly in any web browser.
+
+---
+
+## 👤 Author
+
+- **GitHub:** [@AGreatDev-coder](https://github.com/AGreatDev-coder)

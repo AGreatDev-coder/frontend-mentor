@@ -1,69 +1,74 @@
-# Frontend Mentor Challenges 🚀
+# Frontend Web Projects & UI Applications 🚀
 
-Welcome to my repository showcasing solutions to various [Frontend Mentor](https://www.frontendmentor.io) challenges. This repository serves as a portfolio of my web development journey, tracking my progress as I build realistic UI components and applications.
+Welcome to my frontend development portfolio repository! This collection showcases responsive, accessible, and high-performance web applications and UI components built from scratch using **Semantic HTML5**, **Modern CSS3 (Flexbox & CSS Grid)**, and **Vanilla JavaScript**.
 
----
-
-## 📚 Challenges Overview
-
-| # | Challenge | Difficulty | Tech Stack | Solution Code | Live Demo |
-|---|-----------|------------|------------|---------------|-----------|
-| 01 | **Blog Preview Card** | Newbie | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
-| 02 | **Fylo Dark Theme Landing Page** | Junior | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | [Live Demo](https://agreatdev-fylo-dark-theme.netlify.app) |
-| 03 | **Tip Calculator App** | Junior | HTML5, CSS3, Flexbox, CSS Grid, JavaScript | [View Code](./tip-calculator-app-main/tip-calculator-app-main/) | [Live Demo](https://agreatdev-tip-calculator.netlify.app) |
+Each project emphasizes clean code architecture, mobile-first responsive design, interactive states, and modern web standards.
 
 ---
 
-## 🛠️ Challenge Showcase
+## 📚 Projects Overview
+
+| # | Project | Category | Tech Stack | Source Code | Live Demo |
+|---|---------|----------|------------|-------------|-----------|
+| 01 | **[Blog Preview Card](#1-blog-preview-card)** | UI Component | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
+| 02 | **[Fylo Dark Theme Landing Page](#2-fylo-dark-theme-landing-page)** | Landing Page | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | [Live Demo](https://agreatdev-fylo-dark-theme.netlify.app) |
+| 03 | **[Splitter - Tip Calculator App](#3-splitter---tip-calculator-app)** | Web Application | HTML5, CSS3, JavaScript (ES6+) | [View Code](./tip-calculator-app-main/tip-calculator-app-main/) | [Live Demo](https://agreatdev-tip-calculator.netlify.app) |
+
+---
+
+## 🛠️ Project Showcase
 
 ### 1. Blog Preview Card
 
+A neo-brutalist blog preview card component featuring strong contrast, crisp solid borders, and bold offset drop shadows.
+
 - **Live Demo:** [https://agreatdev-blog-preview-card.netlify.app](https://agreatdev-blog-preview-card.netlify.app)
-- **Challenge Link:** [Blog preview card on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-cP_0cKrn5J)
-- **Folder:** [`./blog-preview-card-main/blog-preview-card-main/`](./blog-preview-card-main/blog-preview-card-main/)
-- **Key Concepts Practiced:**
-  - Semantic HTML structure (`<article>`, `<h1>`, `<p>`, `<span>`, `<img>`)
-  - Block vs. Inline elements
-  - CSS Custom Variables (`:root`)
+- **Directory:** [`./blog-preview-card-main/blog-preview-card-main/`](./blog-preview-card-main/blog-preview-card-main/)
+- **Tech Stack:** HTML5, CSS3, Flexbox
+- **Key Concepts:**
+  - Semantic HTML structure (`<main>`, `<article>`, `<h1>`, `<p>`, `<span>`, `<img>`)
+  - CSS Custom Variables (`:root`) for color palette management
   - Flexbox for viewport centering (`min-height: 100vh`) and component alignment
-  - Neo-brutalist hard-edged offset `box-shadow` and solid borders
-  - Interactive hover state with `h1:hover` and `cursor: pointer`
+  - Neo-brutalist offset `box-shadow` (`8px 8px 0px 0px #000000`) and border styling
+  - Interactive hover state on card headline with smooth color transition
   - Custom Google Font integration (**Figtree**)
 
 ---
 
 ### 2. Fylo Dark Theme Landing Page
 
+A complete, responsive marketing landing page for a cloud storage and file collaboration service, featuring dark mode styling, feature grids, testimonials, and subscription form.
+
 - **Live Demo:** [https://agreatdev-fylo-dark-theme.netlify.app](https://agreatdev-fylo-dark-theme.netlify.app)
-- **Challenge Link:** [Fylo dark theme landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd)
-- **Folder:** [`./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/`](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/)
-- **Key Concepts Practiced:**
-  - Semantic HTML5 page structure (`<header>`, `<nav>`, `<section>`, `<footer>`)
-  - CSS Custom Variables (`:root`) tailored to dark theme UI
+- **Directory:** [`./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/`](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/)
+- **Tech Stack:** HTML5, CSS3, Flexbox, CSS Grid
+- **Key Concepts:**
+  - Semantic HTML5 document landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
+  - CSS Custom Variables (`:root`) tailored to high-contrast dark theme UI
   - Multi-column CSS Grid (`grid-template-columns`) and Flexbox layouts
-  - SVG curved background integration (`bg-curvy-desktop.svg` / `bg-curvy-mobile.svg`)
+  - Seamless SVG background curves for mobile and desktop screens
   - Floating CTA subscription box overlapping page boundaries (`position: relative; margin-bottom: -120px;`)
   - Font Awesome vector icon integration with circular borders and hover transitions
   - Mobile responsiveness using `@media (max-width: 768px)`
-  - Interactive hover states on navigation links, buttons, and social media icons
 
 ---
 
-### 3. Tip Calculator App
+### 3. Splitter - Tip Calculator App
+
+An interactive calculator application that computes tip amounts and bill split totals per person in real time. Features preset buttons, custom tip input, and input validation.
 
 - **Live Demo:** [https://agreatdev-tip-calculator.netlify.app](https://agreatdev-tip-calculator.netlify.app)
-- **Challenge Link:** [Tip calculator app on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
-- **Folder:** [`./tip-calculator-app-main/tip-calculator-app-main/`](./tip-calculator-app-main/tip-calculator-app-main/)
-- **Key Concepts Practiced:**
+- **Directory:** [`./tip-calculator-app-main/tip-calculator-app-main/`](./tip-calculator-app-main/tip-calculator-app-main/)
+- **Tech Stack:** HTML5, CSS3, Flexbox, CSS Grid, Vanilla JavaScript (ES6+)
+- **Key Concepts:**
   - Semantic HTML5 structure (`<header>`, `<main>`, `<output>`, form controls with matching labels and unique IDs)
-  - CSS Custom Variables (`:root`) for color palette from style guide
+  - CSS Custom Variables (`:root`) for streamlined color scheme management
   - Two-dimensional CSS Grid for preset tip percentage buttons & custom input
-  - Modern Flexbox container layouts with responsive proportions
   - Real-time DOM manipulation & state tracking in Vanilla JavaScript
   - Mathematical formulas for tip per person and total bill per person formatted with `.toFixed(2)`
   - Edge-case validation (zero people handling with dynamic error message & red outline)
   - Full calculator reset flow restoring all initial states
-  - Mobile responsiveness with `@media (max-width: 768px)` adapting grid to 2 columns
+  - Responsive design adapting the grid layout across screen sizes
 
 ---
 
@@ -74,9 +79,16 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
    git clone https://github.com/AGreatDev-coder/frontend-mentor.git
    ```
 
-2. **Navigate to the challenge folder:**
+2. **Navigate to any project directory:**
    ```bash
+   # Example: Blog Preview Card
    cd frontend-mentor/blog-preview-card-main/blog-preview-card-main
+
+   # Example: Fylo Landing Page
+   cd frontend-mentor/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master
+
+   # Example: Tip Calculator App
+   cd frontend-mentor/tip-calculator-app-main/tip-calculator-app-main
    ```
 
 3. **Open in your browser:**
@@ -87,4 +99,3 @@ Welcome to my repository showcasing solutions to various [Frontend Mentor](https
 ## 👤 Author
 
 - **GitHub:** [@AGreatDev-coder](https://github.com/AGreatDev-coder)
-- **Frontend Mentor:** [@AGreatDev-coder](https://www.frontendmentor.io)
