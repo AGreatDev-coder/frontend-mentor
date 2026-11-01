@@ -13,6 +13,7 @@ Each project emphasizes clean code architecture, mobile-first responsive design,
 | 01 | **[Blog Preview Card](#1-blog-preview-card)** | UI Component | HTML5, CSS3, Flexbox | [View Code](./blog-preview-card-main/blog-preview-card-main/) | [Live Demo](https://agreatdev-blog-preview-card.netlify.app) |
 | 02 | **[Fylo Dark Theme Landing Page](#2-fylo-dark-theme-landing-page)** | Landing Page | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/) | [Live Demo](https://agreatdev-fylo-dark-theme.netlify.app) |
 | 03 | **[Splitter - Tip Calculator App](#3-splitter---tip-calculator-app)** | Web Application | HTML5, CSS3, JavaScript (ES6+) | [View Code](./tip-calculator-app-main/tip-calculator-app-main/) | [Live Demo](https://agreatdev-tip-calculator.netlify.app) |
+| 04 | **[Ableton - About Page](#4-ableton---about-page)** | Editorial Landing Page | HTML5, CSS3, Flexbox, CSS Grid | [View Code](./ableton/) | *In Development* |
 
 ---
 
@@ -69,6 +70,23 @@ An interactive calculator application that computes tip amounts and bill split t
   - Edge-case validation (zero people handling with dynamic error message & red outline)
   - Full calculator reset flow restoring all initial states
   - Responsive design adapting the grid layout across screen sizes
+
+---
+
+### 4. Ableton - About Page
+
+A recreation of Ableton's iconic, editorial "About" page focusing on complex asymmetrical colored grids, geometric typography, and sticky navigation.
+
+- **Status:** In Development
+- **Directory:** [`./ableton/`](./ableton/)
+- **Tech Stack:** HTML5, CSS3, Flexbox, CSS Grid
+- **Design System & Tokens:** [`./ableton/style-guide.md`](./ableton/style-guide.md)
+- **Key Concepts:**
+  - Geometric typography hierarchy & bold hero overlay
+  - Multi-section asymmetrical colored grids with offset backdrops (`#fbffa7`, `#b6ffc0`, `#d5b3ff`)
+  - Sticky secondary sub-navigation bar (`position: sticky; top: 0;`)
+  - Multi-column responsive footer & newsletter signup
+  - Video presentation container with custom play button
 
 ---
 
